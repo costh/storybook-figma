@@ -6,5 +6,9 @@ type Props = {
 };
 
 export function Button({ text, onClick }: Props) {
-  return <MantineButton onClick={onClick}>{text}</MantineButton>;
+  return (
+    <MantineButton variant="outline" onClick={onClick}>
+      {text}
+    </MantineButton>
+  );
 }
