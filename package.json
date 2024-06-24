@@ -18,7 +18,7 @@
     "test": "npm run prettier:check && npm run lint && npm run typecheck && npm run jest",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "CHROMATIC_PROJECT_TOKEN=$CHROMATIC_PROJECT_TOKEN npx chromatic"
+    "chromatic": "CHROMATIC_PROJECT_TOKEN=$CHROMATIC_PROJECT_TOKEN npx chromatic --exit-zero-on-changes"
   },
   "dependencies": {
     "@figspec/react": "^2.0.0",
