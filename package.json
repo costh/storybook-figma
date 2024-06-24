@@ -21,9 +21,11 @@
     "chromatic": "CHROMATIC_PROJECT_TOKEN=$CHROMATIC_PROJECT_TOKEN npx chromatic"
   },
   "dependencies": {
+    "@figspec/react": "^2.0.0",
     "@mantine/core": "7.10.2",
     "@mantine/hooks": "7.10.2",
     "@next/bundle-analyzer": "^14.2.4",
+    "@storybook/addon-designs": "^8.0.2",
     "@tabler/icons-react": "^3.6.0",
     "chromatic": "^11.5.4",
     "next": "14.2.4",

@@ -5,6 +5,7 @@ const config: StorybookConfig = {
     '@storybook/addon-essentials',
     'storybook-dark-mode',
     '@storybook/addon-styling-webpack',
+    '@storybook/addon-designs',
   ],
   framework: {
     name: '@storybook/nextjs',
